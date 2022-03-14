@@ -1,0 +1,429 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*star css*/
+.warp {
+    width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bar1 {
+    background: #f6f6f6;
+    height: 30px;
+}
+
+.bar1 ul {
+    float: right;
+    margin: 5px;
+}
+
+.bar1 li {
+    float: left;
+    margin-right: 10px;
+}
+
+.bar1 li a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bar1 ul .facebook {
+    padding-right: 8px;
+    border-right: 1px solid #cccc;
+}
+
+.bar1 .facebook span {
+    color: #4460a0;
+}
+
+.bar1 .twitter span {
+    color: #00aaec;
+}
+.bar2{
+    background: white;
+}
+.bar2 h1 a {
+    display: block;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 250px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bar2 ul {
+    float: right;
+}
+
+.bar2 li {
+    float: left;
+    display: flex;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.bar2 li a {
+    font-size: 16px;
+    color: #00cc99;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.bar2 li a:hover {
+    border-bottom: 3px solid #00cc99;
+}
+.kanban {
+    background-image: url(img/Banner.png);
+    height: 415px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.kanban p {
+    color: #ffff;
+    font-size: 36px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+.content ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 300px;
+    height: 325px;
+    margin-top: 65px;
+}
+
+.content li a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 225px;
+    margin-top: 20px;
+}
+
+.content li a h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+}
+
+.content li a p {
+    margin: 0 20px 0px 20px;
+    font-weight: 500;
+    width: 275px;
+    line-height: 1.3;
+}
+
+.content li a {
+    box-shadow: 0 2px 2px 0 rgb(212, 211, 211);
+}
+
+.content li a:hover {
+    outline: 1px solid black;
+}
+
+h3 {
+    margin-top: 60PX;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+table {
+    margin: auto;
+    width: 840px;
+    margin-bottom: 60px;
+}
+
+table th,
+table td {
+    border-top: 1px solid rgb(212, 211, 211);
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding: 10px 50px 10px 20px;
+}
+
+table th {
+    background: #f7f7f7;
+    text-align: left;
+    font-weight: bold;
+}
+
+.light {
+    color: #00cc99;
+}
+
+.form {
+    background-image: url(img/Sample_03.png);
+    padding-bottom: 20px;
+}
+
+.form span {
+    display: block;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    line-height: 1.3;
+}
+
+.form .form-input {
+    display: flex;
+    margin: 30px 25px 0 25px;
+}
+
+.form .form-input-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.form .form-input .textarea {
+    height: 245px;
+    width: 460px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form .form-input-right label {
+    color: white;
+}
+
+.form .form-input-right input {
+    width: 460px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+.form .form-input-right .submit {
+    width: 70px;
+    align-self: flex-end;
+    background: #00cc99;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.footer {
+    margin: 25px 15px 60px 15px;
+}
+
+.footer .info {
+    float: right;
+    line-height: 1.3;
+}
+
+.footer .info span {
+    color: #e12d80;
+}
+
+.footer h1 a {
+    background-image: url(img/logo2.png);
+    display: block;
+    height: 36px;
+    width: 171px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@media(max-width:768px){
+    .warp{
+        width: 100%;
+    }
+    .bar2{
+        float: none;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bar2 ul{
+        margin: auto;
+    }
+    .bar2 ul li{
+        border: solid 1px #00cc99;
+    }
+    .bar2 ul li a{
+        width: 150px;
+        text-align: center;
+    }
+    .kanban {
+        background-image: none;
+        height: auto;
+    }
+    .kanban p{
+        color: black;
+        background: none;
+        color:black;
+        font-weight: 900;
+        font-size: 16px;
+        line-height:16px;
+        padding: 10px 20px ;
+    }
+    .kanban p br{
+        display: none;
+    }
+    .content ul{
+        flex-wrap: wrap;
+
+    }
+    .form .form-input .textarea {
+       width: 50%;
+    }   
+    .form .form-input-right input {
+        width: 100%;
+    }
+}
